@@ -17,5 +17,6 @@ sorted_counts_dict = dict(sorted_counts_list)
 
 types_of_feature = len(sorted_counts_dict)
 
+print(f'Number of feature types: {types_of_feature}')
 print(sorted_counts_list)
-print(types_of_feature)
+
